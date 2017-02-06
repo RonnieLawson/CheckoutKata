@@ -1,0 +1,7 @@
+C:\dev\katas\checkoutKata\CheckoutTests\bin\Debug\CheckoutTests.dll
+C:\dev\katas\checkoutKata\CheckoutTests\bin\Debug\CheckoutTests.pdb
+C:\dev\katas\checkoutKata\CheckoutTests\bin\Debug\nunit.framework.dll
+C:\dev\katas\checkoutKata\CheckoutTests\bin\Debug\nunit.framework.xml
+C:\dev\katas\checkoutKata\CheckoutTests\obj\Debug\Checkout.Tests.csprojResolveAssemblyReference.cache
+C:\dev\katas\checkoutKata\CheckoutTests\obj\Debug\CheckoutTests.dll
+C:\dev\katas\checkoutKata\CheckoutTests\obj\Debug\CheckoutTests.pdb

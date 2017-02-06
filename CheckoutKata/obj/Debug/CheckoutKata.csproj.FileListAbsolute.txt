@@ -1,0 +1,6 @@
+C:\dev\katas\checkoutKata\CheckoutKata\bin\Debug\CheckoutKata.exe.config
+C:\dev\katas\checkoutKata\CheckoutKata\bin\Debug\CheckoutKata.exe
+C:\dev\katas\checkoutKata\CheckoutKata\bin\Debug\CheckoutKata.pdb
+C:\dev\katas\checkoutKata\CheckoutKata\obj\Debug\CheckoutKata.csprojResolveAssemblyReference.cache
+C:\dev\katas\checkoutKata\CheckoutKata\obj\Debug\CheckoutKata.exe
+C:\dev\katas\checkoutKata\CheckoutKata\obj\Debug\CheckoutKata.pdb
