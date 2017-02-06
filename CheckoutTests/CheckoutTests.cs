@@ -9,7 +9,7 @@ namespace CheckoutKata.Tests
         private static PricingRules _pricingRules;
 
         [OneTimeSetUp]
-        public void GivenACheckoutWithValidPricingRules()
+        public void GivenACheckoutWithValidPricingRulesWhenCreatingTheCheckout()
         {
             _pricingRules = null;
             _checkout = new Checkout(_pricingRules);
