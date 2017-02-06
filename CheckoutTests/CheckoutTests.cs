@@ -3,20 +3,29 @@
 namespace CheckoutKata.Tests
 {
     [TestFixture]
-    public class GivenACheckoutWithValidPricingRules
+    public class CheckoutKataTests
     {
+        private static Checkout _checkout;
+        private static PricingRules _pricingRules;
+
+        [OneTimeSetUp]
+        public void GivenACheckoutWithValidPricingRules()
+        {
+            _pricingRules = null;
+            _checkout = new Checkout(_pricingRules);
+        }
+
         [Test]
         public void ThenTheCheckoutIsCreated()
         {
-            var checkout = new Checkout();
-            Assert.That(checkout.GetType(), Is.EqualTo(typeof(Checkout)));
+            Assert.That(_checkout.GetType(), Is.EqualTo(typeof(Checkout)));
         }
 
         [Test]
         public void ThenThePriceingRulesAreStored()
         {
-            var checkout = new Checkout();
-            Assert.That(checkout.GetType(), Is.EqualTo(typeof(Checkout)));
+            var checkout = new Checkout(_pricingRules);
+            Assert.That(checkout.PricingRules, Is.EqualTo(_pricingRules));
         }
     }
 }
